@@ -1,0 +1,54 @@
+version: "3.3"
+
+services:
+  ubuntu14:
+    build:
+      context: ./ubuntu14
+  ubuntu16:
+    build:
+      context: ./ubuntu16
+  ubuntu17:
+    build:
+      context: ./ubuntu17
+  ubuntu18:
+    build:
+      context: ./ubuntu18
+  centos6:
+    build:
+      context: ./centos6
+  centos66:
+    build:
+      context: ./centos66
+  centos67:
+    build:
+      context: ./centos67
+  centos68:
+    build:
+      context: ./centos68
+  centos69:
+    build:
+      context: ./centos69
+  centos7:
+    build:
+      context: ./centos7
+  centos71:
+    build:
+      context: ./centos71
+  centos72:
+    build:
+      context: ./centos72
+  centos73:
+    build:
+      context: ./centos73
+  centos74:
+    build:
+      context: ./centos74
+  debian7:
+    build:
+      context: ./debian7
+  debian8:
+    build:
+      context: ./debian8
+  debian9:
+    build:
+      context: ./debian9
